@@ -245,8 +245,8 @@ class Management(QDialog):
                 QMessageBox.Critical,
                 self.tr("You are trying to remove authorisation"),
                 self.tr("""
-                Are you sure want to remove authoristion?
-                It remove all not synced changes!
+                Are you sure you want to remove authorisation?
+                Any un-synced changes will be lost.
                 """.strip()),
                 QMessageBox.Yes | QMessageBox.No
             )
